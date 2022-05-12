@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@lottiefiles/react-lottie-player': ^3.4.6
   '@types/node': 17.0.32
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.3
@@ -16,6 +17,7 @@ specifiers:
   typescript: 4.6.4
 
 dependencies:
+  '@lottiefiles/react-lottie-player': 3.4.6_react@18.1.0
   daisyui: 2.14.3_cr4sis33dk4di3xnobyqnqmrf4
   next: 12.1.6_ef5jwxihqo6n7gxfmzogljlgcm
   react: 18.1.0
@@ -80,6 +82,15 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
+
+  /@lottiefiles/react-lottie-player/3.4.6_react@18.1.0:
+    resolution: {integrity: sha512-Oafv8SecI7jpc+IbR9uEPTbTyPZzI0xn+/kZNFYhO0VJgOsx6tG8OGesdS+Eig7ke8n8K8ZUQAlNrEbQJhwucA==}
+    peerDependencies:
+      react: 16 - 18
+    dependencies:
+      lottie-web: 5.9.4
+      react: 18.1.0
+    dev: false
 
   /@next/env/12.1.6:
     resolution: {integrity: sha512-Te/OBDXFSodPU6jlXYPAXpmZr/AkG6DCATAxttQxqOWaq6eDFX25Db3dK0120GZrSZmv4QCe9KsZmJKDbWs4OA==}
@@ -1436,6 +1447,10 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+
+  /lottie-web/5.9.4:
+    resolution: {integrity: sha512-bSs1ZTPifnBVejO1MnQHdfrKfcn02YTCmgOh2wcAEICqRA0V7GzDh8FnwXY6+EzT+i8XOunaIloo/5xC5YNbsA==}
+    dev: false
 
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
